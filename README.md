@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Shahan Guidance
 
-# Run and deploy your AI Studio app
+A comprehensive guide for Punjab University LLB students.
 
-This contains everything you need to run your app locally.
+## Features
+- Punjab University LLB Curriculum (Annual & Semester Systems)
+- PDF Previews & Downloads
+- Past Papers & Bare Acts
+- AI Assistant for Legal Queries
 
-View your app in AI Studio: https://ai.studio/apps/c2467b0f-fe85-4572-a944-135455c58551
+## Deployment
+This website is automatically deployed to GitHub Pages via GitHub Actions.
 
-## Run Locally
+### Manual Deployment
+If you want to build and deploy manually:
+1. Install Node.js
+2. Run `npm install`
+3. Run `npm run build`
+4. Upload the contents of the `dist/` folder to your GitHub repository.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### GitHub Actions (Recommended)
+Every time you push to the `main` branch, the website will automatically build and deploy.
