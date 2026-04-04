@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  
+  --color-ink: #0f0c07;
+  --color-gold: #b8892a;
+  --color-gold-light: #d4a843;
+  --color-parchment: #fdf8ef;
+  --color-cream: #fffdf7;
+  --color-muted: #7a6a4a;
+}
+
+@layer base {
+  body {
+    @apply bg-parchment text-ink font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-bold;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap');
