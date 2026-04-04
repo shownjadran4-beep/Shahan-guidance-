@@ -1,13 +1,148 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shahan Guidance</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="./src/main.tsx"></script>
-  </body>
-</html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shahan Guidance - LLB Law Portal</title>
 
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Header */
+header {
+    background-color: #0d47a1;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #1565c0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    padding: 40px;
+    text-align: center;
+    background: white;
+}
+
+.hero h2 {
+    color: #0d47a1;
+}
+
+/* Sections */
+.section {
+    padding: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #1565c0;
+}
+
+/* Footer */
+footer {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>⚖️ Shahan Guidance</h1>
+    <p>Complete Study Portal for LLB Students</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Past Papers</a>
+    <a href="#">Bare Acts</a>
+    <a href="#">Important Questions</a>
+    <a href="#">Notes</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Welcome to Shahan Guidance</h2>
+    <p>
+        A comprehensive platform for Punjab University LLB students.
+        Access past papers, bare acts, notes, and important questions.
+    </p>
+</section>
+
+<section class="section">
+    <h2 style="text-align:center;">Study Resources</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>📄 Past Papers</h3>
+            <p>Download Punjab University LLB past papers.</p>
+        </div>
+
+        <div class="card">
+            <h3>⚖️ Bare Acts</h3>
+            <p>Access all important law acts in PDF format.</p>
+        </div>
+
+        <div class="card">
+            <h3>⭐ Important Questions</h3>
+            <p>Prepare from frequently asked exam questions.</p>
+        </div>
+
+        <div class="card">
+            <h3>📚 Notes</h3>
+            <p>Easy and exam-focused law notes.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Shahan Guidance | Built for LLB Students</p>
+</footer>
+
+</body>
+</html>
